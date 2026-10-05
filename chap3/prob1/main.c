@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include "copy.h"
-
+//good!
 char line[MAXLINE]; 
-char longest[MAXLINE];
-
+char longest[MAXLINE]; 
 
 int main(){
   int len;
@@ -19,7 +18,7 @@ int main(){
       }
     }
 
-  if(max > 0)
+  if(max > 0) 
     printf("%s \n", longest);
 
   return 0;
